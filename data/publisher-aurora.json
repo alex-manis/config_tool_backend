@@ -1,0 +1,28 @@
+{
+  "publisherId": "pub-aurora",
+  "aliasName": "Aurora Media",
+  "pages": [
+    {
+      "pageType": "homepage",
+      "selector": "main",
+      "position": "top"
+    },
+    {
+      "pageType": "text",
+      "selector": ".article-top",
+      "position": "sidebar"
+    },
+    {
+      "pageType": "video",
+      "selector": "#player",
+      "position": "bottom"
+    }
+  ],
+  "publisherDashboard": "https://mixpanel.com/project/101/dashboards/5001",
+  "monitorDashboard": "https://grafana.example.com/d/aur0ra01/publisher-aurora-overview",
+  "qaStatusDashboard": "https://internal.taboola.com/qa/aurora/status",
+  "isActive": true,
+  "customCss": "/* highlight article top area */\n.article-top { outline: 2px dashed #09f; }",
+  "tags": [],
+  "notes": ""
+}

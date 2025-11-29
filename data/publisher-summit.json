@@ -1,0 +1,34 @@
+{
+  "publisherId": "pub-summit",
+  "aliasName": "Summit Insights",
+  "pages": [
+    {
+      "pageType": "homepage",
+      "selector": "main",
+      "position": "top"
+    },
+    {
+      "pageType": "text",
+      "selector": ".article-main",
+      "position": "bottom"
+    },
+    {
+      "pageType": "category",
+      "selector": "#category-feed",
+      "position": "sidebar"
+    }
+  ],
+  "publisherDashboard": "https://mixpanel.com/project/404/dashboards/8004",
+  "monitorDashboard": "https://grafana.example.com/d/summ1t04/publisher-summit-overview",
+  "qaStatusDashboard": "https://internal.taboola.com/qa/summit/status",
+  "isActive": true,
+  "contactEmail": "support@summitinsights.com",
+  "defaultLanguage": "en",
+  "tags": [
+    "tech",
+    "finance"
+  ],
+  "lastUpdated": "2025-10-20T12:00:00Z",
+  "notes": "Running A/B on homepage position",
+  "customCss": ""
+}

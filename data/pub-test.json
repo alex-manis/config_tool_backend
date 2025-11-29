@@ -1,0 +1,22 @@
+{
+  "123": 456,
+  "publisherId": "pub-test",
+  "aliasName": "Test Publisher",
+  "isActive": false,
+  "publisherDashboard": "https://mixpanel.com/project/101/dashboards/5001",
+  "monitorDashboard": "https://grafana.example.com/d/aur0ra01/publisher-aurora-overview",
+  "qaStatusDashboard": "https://internal.taboola.com/qa/aurora/status",
+  "customCss": "",
+  "tags": [
+    "f",
+    "g"
+  ],
+  "notes": "qwerty",
+  "pages": [
+    {
+      "pageType": "1",
+      "selector": "qwerty",
+      "position": "top"
+    }
+  ]
+}

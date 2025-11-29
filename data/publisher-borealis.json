@@ -1,0 +1,31 @@
+{
+  "publisherId": "pub-borealis",
+  "aliasName": "Borealis News",
+  "pages": [
+    {
+      "pageType": "homepage",
+      "selector": "#root main",
+      "position": "top"
+    },
+    {
+      "pageType": "text",
+      "selector": ".post-body",
+      "position": "top"
+    },
+    {
+      "pageType": "gallery",
+      "selector": ".gallery-grid",
+      "position": "sidebar"
+    }
+  ],
+  "publisherDashboard": "https://mixpanel.com/project/202/dashboards/6002",
+  "monitorDashboard": "https://grafana.example.com/d/b0rea1is/publisher-borealis-overview",
+  "qaStatusDashboard": "https://internal.taboola.com/qa/borealis/status",
+  "isActive": false,
+  "customCss": "/* subtle sidebar spacing */\n.gallery-grid { margin-top: 8px; }",
+  "tags": [
+    "world",
+    "politics"
+  ],
+  "notes": ""
+}

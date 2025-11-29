@@ -1,0 +1,29 @@
+{
+  "publisherId": "pub-cascade",
+  "aliasName": "Cascade Daily",
+  "pages": [
+    {
+      "pageType": "homepage",
+      "selector": "body > main",
+      "position": "top"
+    },
+    {
+      "pageType": "text",
+      "selector": ".content > article",
+      "position": "bottom"
+    },
+    {
+      "pageType": "opinion",
+      "selector": ".opinion-lead, .editorial-hero",
+      "position": "top"
+    }
+  ],
+  "publisherDashboard": "https://mixpanel.com/project/303/dashboards/7003",
+  "monitorDashboard": "https://grafana.example.com/d/c4sc4de/publisher-cascade-overview",
+  "qaStatusDashboard": "https://internal.taboola.com/qa/cascade/status",
+  "isActive": true,
+  "customCss": "/* emphasize opinion header */\n.opinion-lead { border-bottom: 3px solid #ff7a00; }",
+  "tags": [],
+  "notes": "",
+  "allowedDomains": ["cascade.com", "news.cascade.com"]
+}
