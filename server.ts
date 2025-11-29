@@ -11,14 +11,13 @@ const __dirname = path.dirname(__filename);
 export const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Get allowed origins from environment or use defaults
+const FRONTEND_URL = process.env.FRONTEND_URL;
 const allowedOrigins = process.env.ALLOWED_ORIGINS 
     ? process.env.ALLOWED_ORIGINS.split(',')
     : [
         "http://localhost:3000",
         "https://localhost:3000",
-        // Add your GitHub Pages URL here (e.g., "https://username.github.io")
-        // Or set ALLOWED_ORIGINS environment variable on Render
+      
       ];
 
 // Enable CORS for frontend
