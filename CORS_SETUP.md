@@ -54,3 +54,4 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
 
 В режиме разработки (`NODE_ENV !== 'production'`) все источники разрешены для удобства.
 
+
